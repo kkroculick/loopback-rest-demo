@@ -1,0 +1,27 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "stuffdb": {
+    "name": "stuffdb",
+    "connector": "memory",
+    "file": "stuff.db"
+  },
+  "offerAPIDS": {
+    "name": "offerAPIDS",
+    "crud": false,
+    "connector": "rest",
+    "operations": [
+      {
+        "functions": {
+          "getStuff": []
+        },
+        "template": {
+          "method": "GET",
+          "url": "http://localhost:3001/api/Stuff"
+        }
+      }
+    ]
+  }
+}

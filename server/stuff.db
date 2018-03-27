@@ -1,0 +1,10 @@
+{
+  "ids": {
+    "Stuff": 2
+  },
+  "models": {
+    "Stuff": {
+      "1": "{\"firstname\":\"keith\",\"lastname\":\"kroculick\",\"id\":1}"
+    }
+  }
+}
